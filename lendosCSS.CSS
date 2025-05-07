@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: #043873;
+    padding-top: 0px;
+    font-family:sans-serif;
+    color: #fff;
+    display: flex;
+    
+   
+
+   
+
+
+}
+.logo {
+    margin-left: 133px;
+}
+
+.nav{
+   margin-left: 265px;
+    display: flex;
+    gap: 10px;
+    justify-content:flex-end;
+    
+}
+.spisok {
+   list-style: none;
+   padding: 20px;
+   margin: 0;
+   display: flex;
+   gap: 58.5px;
+   font-size: 15px;
+   line-height: 23px;
+   
+    display: flex;
+   
+    
+}
+.buttom {
+padding: 4px;
+margin-left: 39px;
+gap:17px;
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+.login {
+    background-color: #FFE492;
+    border-radius: 8px;
+    width: 104px;
+    height: 52px;
+    color: #043873;
+    
+}
+
+.free {
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    width:180px;
+    height: 50px;
+    color: #FFFFFF;
+}
